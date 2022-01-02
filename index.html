@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORT TURLARI</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <div class="checkbox">
+
+        <h1 class="title">
+            Qaysi sport turiga qiziqasiz?
+        </h1>
+
+
+        <form class="form" action="https://echo.htmlacademy.ru/" method="POST">
+
+            <label class="label">
+              Stol tennisi
+              <input type="checkbox" class="visually__hidden" name="stol_tennisi" value="stol_tennisi">
+              <span class="input__controller stol__tennisi"></span>
+            </label>
+        
+            <label class="label">
+              Basketbol
+              <input type="checkbox" class="visually__hidden" name="basketbol" value="Basketbol">
+              <span class="input__controller basketbol"></span>
+            </label>
+        
+            <label class="label">
+              Voleybol
+              <input type="checkbox" class="visually__hidden" name="voleybol" value="Voleybol" disabled checked>
+              <span class="input__controller voleybol"></span>
+            </label>
+        
+            <label class="label">
+              Xokkey
+              <input type="checkbox" class="visually__hidden" name="xokkey" value="Xokkey" disabled >
+              <span class="input__controller xokkey"></span>
+            </label>
+
+            <button type="submit" class="button">
+              SEND
+            </button>
+        
+        </form>
+
+    </div>
+
+
+</body>
+</html>
